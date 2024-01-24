@@ -1,0 +1,233 @@
+.sidebar__container {
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.navigator {
+  width: 100%;
+  height: 164px;
+  background-color: #121212;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.navigator__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 1.5rem;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 1.5rem;
+}
+
+.navigator-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.navigator-links ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigator-links img {
+  width: 22px;
+  margin-right: 1rem;
+}
+
+.navigator-links span {
+  font-weight: 600;
+  color: #b8b8b8;
+}
+
+.library__container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  background-color: #121212;
+  border-radius: 10px;
+}
+
+.libray-controls {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.libray-controls img {
+  width: 22px;
+  margin-right: 1rem;
+}
+
+.libray-controls a {
+  display: flex;
+  align-items: center;
+}
+
+.libray-controls a span {
+  color: #b8b8b8;
+  font-weight: 600;
+}
+
+.library-create {
+  width: 100%;
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #121212;
+  padding: 0.5rem 0;
+  margin-bottom: 2rem;
+  overflow-y: scroll;
+}
+
+.library-playlist,
+.library-podcast {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 1.2rem;
+}
+
+.library-playlist {
+  margin-bottom: 1rem;
+}
+
+.library-create::-webkit-scrollbar {
+  width: 12px;
+}
+
+.library-create::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.library-create::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.library-create span:first-child {
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.library-create span:nth-child(4) {
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.library-create span {
+  color: #ffffff;
+  font-size: 0.8em;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.library-create a {
+  width: 125px;
+  background-color: #ffffff;
+  color: #121212;
+  font-weight: 600;
+  font-size: 0.875em;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: transform .3s ease-in-out;
+}
+
+.library-create a:hover {
+  transform: scale(1.1);
+}
+
+.library-faq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 1em;
+  margin-bottom: 1.5rem;
+}
+
+.library-faq ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.library-faq ul li a {
+  color: #b8b8b8;
+  font-size: 0.7em;
+}
+
+.library-language__container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.library-language__container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: transform .3s ease-in-out;
+}
+
+.library-language__container button:hover {
+  transform: scale(1.1);
+  border: 2px solid #ffffff;
+}
+
+.library-language__container button img {
+  width: 22px;
+  margin-right: 0.5rem;
+}
+
+.library-language__container button span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.horizontal-section {
+  overflow-y: scroll;
+}
+
+.app-icon {
+  scroll-snap-align: start;
+}

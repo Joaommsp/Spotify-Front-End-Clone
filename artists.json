@@ -1,0 +1,52 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Foo Fighters",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15"
+    },
+    {
+      "id": 2,
+      "name": "Michael Jackson",
+      "genre": "Pop",
+      "urlImg": "https://cdn.wallpapersafari.com/49/76/H2ro49.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nick Jonas",
+      "genre": "Pop",
+      "urlImg": "https://images.alphacoders.com/860/860581.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Taylor Swift",
+      "genre": "Pop",
+      "urlImg": "https://wallpapers-hub.art/wallpaper-images/356283.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Justin Bieber",
+      "genre": "Pop",
+      "urlImg": "https://istoe.com.br/wp-content/uploads/2022/06/justin-bieber-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Adele",
+      "genre": "Pop",
+      "urlImg": "https://www.billboard.com/wp-content/uploads/2021/10/British_Vogue_adele-2021-billboard-1548-1633626682.jpg?w=942&h=623&crop=1"
+    },
+    {
+      "id": 7,
+      "name": "Eminem",
+      "genre": "Rap",
+      "urlImg": "https://images6.alphacoders.com/981/981194.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Dua Lipa",
+      "genre": "Pop",
+      "urlImg": "https://media.gq.com/photos/5a5f79d835be9e1aebeceecf/4:3/w_4556,h_3417,c_limit/Dua_Lipa_01.jpg"
+    }
+  ]
+}

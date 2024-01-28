@@ -40,7 +40,17 @@
       "id": 7,
       "name": "Dua Lipa",
       "genre": "Pop",
-      "urlImg": "https://media.gq.com/photos/5a5f79d835be9e1aebeceecf/4:3/w_4556,h_3417,c_limit/Dua_Lipa_01.jpg"
+      "urlImg": "https://media.gq.com/photos/5a5f79d835be9e1aebeceecf/4:3/w_4556,h_3417,c_limit/Dua_Lipa_01.jpg",
+      "songs": [
+        {
+          "src": "../../assets/music/levitating-dua-lipa.mp3",
+          "name": "Levitating - Dua Lipa"
+        },
+        {
+          "src": "../../assets/music/idgaf-dua-lipa.mp3",
+          "name": "IDGAF - Dua Lipa"
+        }
+      ]
     },
      {
       "id": 8,

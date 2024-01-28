@@ -57,6 +57,18 @@
       "name": "Eminem",
       "genre": "Rap",
       "urlImg": "https://images6.alphacoders.com/981/981194.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Iguinho",
+      "genre": "Forró",
+      "urlImg" : "https://planetaforro.com.br/wp-content/uploads/2023/04/IguinhoeLulinha-28abr_PlanetaForro.jpg",
+      "songs" : [
+        {
+          "src": "../../assets/music/vaqueira-iguinho.mp3",
+          "name": "Vaqueira - Iguinho e Lulinha"
+        }
+      ]
     }
   ]
 }

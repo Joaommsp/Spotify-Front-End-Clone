@@ -1,0 +1,201 @@
+.playlists {
+  width: 100%;
+  height: 90%;
+  padding-right: 0rem;
+  background: linear-gradient(
+    180deg,
+    rgba(96, 12, 147, 0.8813900560224089) 0%,
+    rgba(18, 18, 18, 1) 30%
+  );
+  overflow-y: scroll;
+}
+
+.playlists-controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.playlists-controls a {
+  color: #ffffff;
+}
+
+.playlists-controls a:first-child {
+  transition: 0.5s ease-in-out;
+}
+
+.playlists-controls a:first-child:hover {
+  text-decoration: underline;
+}
+
+.playlists-controls a:nth-child(2) {
+  color: #b8b8b8;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.tematic-playlists {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tematic-playlists h2 {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.tematic-playlists__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding: 0 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.playlists::-webkit-scrollbar {
+  width: 12px;
+}
+
+.playlists::-webkit-scrollbar-thumb {
+  background-color: #b8b8b8bd;
+}
+
+.playlists::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.playlists-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.faq {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+}
+
+.faq ul {
+  list-style: none;
+  margin-left: 5rem;
+}
+
+.faq ul:first-child {
+  margin: 0;
+}
+
+.faq ul li {
+  margin: 1rem;
+}
+
+.faq-link {
+  color: #b8b8b8;
+}
+
+.faq-link:hover {
+  text-decoration: underline;
+}
+
+.faq-destak {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.socialMedia__container {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #242424;
+  margin-right: 2rem;
+  height: 40px;
+  width: 40px;
+  margin-right: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.social-link:hover {
+  background-color: #b8b8b86e;
+  transform: scale(1.1);
+}
+
+.socialMedia__container img {
+  width: 20px;
+}
+
+.socialMedia__container img:nth-child(3) {
+  margin: 0;
+}
+
+.about {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.about span {
+  color: #b8b8b8;
+  font-size: 0.8em;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .faq {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .faq ul {
+    list-style: none;
+    margin-left: 0rem;
+  }
+
+  .socialMedia__container {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .tematic-playlists__container {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1100px) {
+  .faq {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .faq ul {
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  .socialMedia__container {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  
+}

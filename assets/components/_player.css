@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.playerMusic {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  position: absolute;
+  bottom: .5rem;
+}
+
+.player-controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.player-controls button {
+  border: 0;
+  background-color: transparent;
+  margin: 0 1.5rem;
+}
+
+.player-controls button:hover {
+  cursor: pointer;
+}
+
+.player-controls button img {
+  width: 36px;
+}
+
+#playBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4C4C4C;
+  border-radius: 50%;
+  padding: .4rem;
+  transition: .4s transform ease-in-out;
+}
+
+#musicName {
+  width: 200px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color:#dddddd;
+  position: absolute;
+  left: 2rem;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Poppins", sans-serif;
+}
+
+#playBtn img {
+  transition: .3s transform ease-in-out;
+}
+
+#playBtn img:hover
+{
+  transform: scale(1.1);
+}
+
+#shuffleBtn,
+#loopBtn {
+  opacity: 50%;
+}
+
+#shuffleBtn img,
+#loopBtn img {
+  width: 25px;
+}
+
+.player-progress {
+  width: 80%;
+  height: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #161616;
+}
+
+#progress {
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #1fdf65a1;
+}
+
+.player-time {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.player-time span {
+  color: #4C4C4C;
+  margin: 0 1rem;
+}
+
+
+@media screen and (max-width: 700px) {
+  /* Seu código CSS aqui */
+}
+
+@media screen and (min-width: 701px) and (max-width: 1100px) {
+  .playerMusic {
+    height: 15%;
+  }
+
+  .player-controls button {
+    margin: 0 1rem;
+  }
+
+  .player-controls button img {
+    width: 26px;
+  }
+  
+  #musicName {
+    width: 150px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color:#dddddd;
+    position: absolute;
+    left: 1em;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Poppins", sans-serif;
+  }
+
+}

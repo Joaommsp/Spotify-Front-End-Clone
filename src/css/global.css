@@ -18,5 +18,5 @@ a {
 
 body {
   background-color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-dm-sans);
 }

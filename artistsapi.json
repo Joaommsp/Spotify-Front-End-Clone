@@ -43,11 +43,11 @@
       "urlImg": "https://media.gq.com/photos/5a5f79d835be9e1aebeceecf/4:3/w_4556,h_3417,c_limit/Dua_Lipa_01.jpg",
       "songs": [
         {
-          "src": "../../assets/music/levitating-dua-lipa.mp3",
+          "src": "./assets/music/levitating-dua-lipa.mp3",
           "name": "Levitating - Dua Lipa"
         },
         {
-          "src": "../../assets/music/idgaf-dua-lipa.mp3",
+          "src": "./assets/music/idgaf-dua-lipa.mp3",
           "name": "IDGAF - Dua Lipa"
         }
       ]
@@ -65,7 +65,7 @@
       "urlImg" : "https://planetaforro.com.br/wp-content/uploads/2023/04/IguinhoeLulinha-28abr_PlanetaForro.jpg",
       "songs" : [
         {
-          "src": "../../assets/music/vaqueira-iguinho.mp3",
+          "src": "./assets/music/vaqueira-iguinho.mp3",
           "name": "Vaqueira - Iguinho e Lulinha"
         }
       ]

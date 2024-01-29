@@ -250,7 +250,13 @@
 }
 
 @media screen and (max-width: 700px) {
- 
+  .sidebar {
+    min-width: 0px;
+    max-height: 0px;
+    display: none;
+    position: fixed;
+    z-index: 10;
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1100px) {

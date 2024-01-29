@@ -38,9 +38,9 @@ main {
   position: relative;
   width: 100%;
   height: 100vh;
-  padding-bottom: .5rem;
-  padding-top: .5rem;
-  padding-right: .5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -60,7 +60,7 @@ main {
 
 @media screen and (max-width: 700px) {
   main {
-    padding-left: .5rem;
+    padding-left: 0.5rem;
   }
 }
 
@@ -68,16 +68,15 @@ main {
   .wrapper {
     width: 100%;
     height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     overflow: hidden;
   }
-  
-  main  {
-    padding-left: .5rem;
+
+  main {
+    padding-left: 0.5rem;
   }
-  
 }
 
 .sidebar {
@@ -332,7 +331,13 @@ main {
 }
 
 @media screen and (max-width: 700px) {
- 
+  .sidebar {
+    min-width: 0px;
+    max-height: 0px;
+    display: none;
+    position: fixed;
+    z-index: 10;
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1100px) {
@@ -344,7 +349,6 @@ main {
     z-index: 10;
   }
 }
-
 
 .footer {
   width: 100%;
@@ -385,8 +389,8 @@ main {
   justify-content: center;
 }
 
-.footer a div:first-child{
-  margin-left: .8rem;
+.footer a div:first-child {
+  margin-left: 0.8rem;
 }
 
 .footer a div:last-child {
@@ -399,10 +403,10 @@ main {
   border: 0;
   background-color: #ffffff;
   padding: 10px 28px;
-    font-size: .8em;
+  font-size: 0.8em;
   font-weight: bold;
   border-radius: 28px;
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   margin-right: 1rem;
 }
 
@@ -411,13 +415,11 @@ main {
   transform: scale(1.1);
 }
 
-
 @media screen and (max-width: 700px) {
-
-  .footer a div:first-child{
-    margin-left: .8rem;
+  .footer a div:first-child {
+    margin-left: 0.8rem;
   }
-  
+
   .footer a div:last-child {
     width: 60%;
     display: flex;
@@ -425,50 +427,49 @@ main {
   }
 
   .footer a span {
-  font-size: 0.8em;
-  font-weight: 600;
-  margin-bottom: 0.5em;
-}
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+  }
 
-.footer a p {
-  display: none;
-}
+  .footer a p {
+    display: none;
+  }
 
-.sub-premiumbtn {
-  border: 0;
-  background-color: #ffffff;
-  padding: 8px 28px;
-    font-size: .8em;
-  font-weight: bold;
-  border-radius: 28px;
-  transition: transform .3s ease-in-out;
-  margin-right: 1rem;
-}
+  .sub-premiumbtn {
+    border: 0;
+    background-color: #ffffff;
+    padding: 8px 28px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 28px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1100px) {
   .footer a span {
-  font-size: 0.8em;
-  font-weight: 600;
-  margin-bottom: 0.5em;
-}
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+  }
 
-.footer a p {
-  font-size: 0.8em;
-  font-weight: 600;
-}
+  .footer a p {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
 
-.sub-premiumbtn {
-  border: 0;
-  background-color: #ffffff;
-  padding: 8px 28px;
-    font-size: .8em;
-  font-weight: bold;
-  border-radius: 28px;
-  transition: transform .3s ease-in-out;
-  margin-right: 1rem;
-}
-
+  .sub-premiumbtn {
+    border: 0;
+    background-color: #ffffff;
+    padding: 8px 28px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 28px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 1rem;
+  }
 }
 
 header {
@@ -828,11 +829,10 @@ header {
     margin-top: 2rem;
     margin-left: 1rem;
   }
-  
+
   .tematic-playlists__container {
     justify-content: center;
   }
-
 }
 
 @media screen and (min-width: 701px) and (max-width: 1100px) {
@@ -851,7 +851,6 @@ header {
     margin-top: 2rem;
     margin-left: 1rem;
   }
-    
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -878,19 +877,16 @@ header {
   position: relative;
 }
 
-.card-playBtn { 
+.card-playBtn {
   width: 46px;
   background-color: #1fdf64;
   position: absolute;
   border-radius: 50%;
   right: 1rem;
   bottom: 6rem;
-  padding: .5rem;
-  box-shadow:
-  0px 0px 1.1px rgba(0, 0, 0, 0.174),
-  0px 0px 3.6px rgba(0, 0, 0, 0.256),
-  0px 0px 16px rgba(0, 0, 0, 0.43)
-;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 1.1px rgba(0, 0, 0, 0.174),
+    0px 0px 3.6px rgba(0, 0, 0, 0.256), 0px 0px 16px rgba(0, 0, 0, 0.43);
 }
 
 .card:hover {
@@ -922,10 +918,9 @@ header {
 }
 
 @media screen and (max-width: 700px) {
-
   .card-tilte {
     width: 96%;
-    font-size: .8em;
+    font-size: 0.8em;
     font-weight: 600;
     color: #ffff;
     margin-top: 0.5rem;
@@ -1056,7 +1051,7 @@ artistName.classList.add("nameOption"); */
   align-items: center;
   padding-top: 1rem;
   cursor: pointer;
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .cardOption:hover {
@@ -1094,7 +1089,7 @@ artistName.classList.add("nameOption"); */
   justify-content: center;
   background-color: #000000;
   position: absolute;
-  bottom: .5rem;
+  bottom: 0.5rem;
 }
 
 .player-controls {
@@ -1123,17 +1118,17 @@ artistName.classList.add("nameOption"); */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4C4C4C;
+  background-color: #4c4c4c;
   border-radius: 50%;
-  padding: .4rem;
-  transition: .4s transform ease-in-out;
+  padding: 0.4rem;
+  transition: 0.4s transform ease-in-out;
 }
 
 #musicName {
   width: 200px;
   font-size: 1.2rem;
   letter-spacing: 1px;
-  color:#dddddd;
+  color: #dddddd;
   position: absolute;
   left: 2rem;
   font-weight: bold;
@@ -1144,11 +1139,10 @@ artistName.classList.add("nameOption"); */
 }
 
 #playBtn img {
-  transition: .3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
 }
 
-#playBtn img:hover
-{
+#playBtn img:hover {
   transform: scale(1.1);
 }
 
@@ -1187,10 +1181,9 @@ artistName.classList.add("nameOption"); */
 }
 
 .player-time span {
-  color: #4C4C4C;
+  color: #4c4c4c;
   margin: 0 1rem;
 }
-
 
 @media screen and (max-width: 700px) {
   /* Seu código CSS aqui */
@@ -1208,12 +1201,12 @@ artistName.classList.add("nameOption"); */
   .player-controls button img {
     width: 26px;
   }
-  
+
   #musicName {
     width: 150px;
     font-size: 1.2rem;
     letter-spacing: 1px;
-    color:#dddddd;
+    color: #dddddd;
     position: absolute;
     left: 1em;
     font-weight: bold;
@@ -1222,9 +1215,7 @@ artistName.classList.add("nameOption"); */
     text-overflow: ellipsis;
     font-family: "Poppins", sans-serif;
   }
-
 }
-
 
 /* display para controle de visão de elementos */
 

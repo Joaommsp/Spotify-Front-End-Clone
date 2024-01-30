@@ -933,7 +933,7 @@ header {
 
   .card {
     width: 150px;
-    height: 260px;
+    height: 220px;
   }
 
   .card-image {
@@ -1078,6 +1078,36 @@ artistName.classList.add("nameOption"); */
   color: #ffffff;
 }
 
+@media screen and (max-width: 700px) {
+  .search-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #ffffff;
+  }
+
+  #search-name {
+    margin: 3rem 0;
+    font-size: 3.5em;
+  }
+
+  .play-btn__container {
+    width: 50px;
+    height: 50px;
+    bottom: -1rem;
+    right: 1rem;
+  }
+
+  .play-btn {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .playerMusic {
@@ -1153,7 +1183,7 @@ artistName.classList.add("nameOption"); */
 
 #shuffleBtn img,
 #loopBtn img {
-  width: 25px;
+  width: 20px;
 }
 
 .player-progress {
@@ -1186,7 +1216,21 @@ artistName.classList.add("nameOption"); */
 }
 
 @media screen and (max-width: 700px) {
-  /* Seu código CSS aqui */
+  .playerMusic {
+    height: 15%;
+  }
+
+  .player-controls button {
+    margin: 0 0.5rem;
+  }
+
+  .player-controls button img {
+    width: 26px;
+  }
+
+  #musicName {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1100px) {

@@ -1,21 +1,3 @@
-window.alert(`
-  Artistas disponíveis para pesquisa:
-
-
--Real Music NF
--Michael Jackson
--Nick Jonas
--Taylor Swift
--Justin Bieber
--Adele
--Dua Lipa
--Eminem
--Iguinho
--Zyyz
--Karen Harding
-
-  `)
-
 const searchInput = document.getElementById("search-input");
 
 const playListControls = document.querySelector(".playlists-controls");

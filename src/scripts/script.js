@@ -1,3 +1,4 @@
+
 const searchInput = document.getElementById("search-input");
 
 const playListControls = document.querySelector(".playlists-controls");
@@ -50,6 +51,7 @@ function musicPlayer(songs) {
 
   playPauseBtn.addEventListener("click", () => playPause());
 
+  document.querySelector('.play-btn__container').addEventListener('click', () => playPause())
 
   function playPause() {
     if (player.paused) {

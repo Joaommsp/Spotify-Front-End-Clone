@@ -184,13 +184,9 @@ function displayOptions(artistListToShow) {
   let artistGenre = document.createElement('span') 
   artistGenre.classList.add("genreOption");
 
-  console.log(artistListToShow)
-
   for (let i = 0; i < artistListToShow.length; i++) {
     if (!itemsAdded.includes(artistListToShow[i].id)) {
       itemsAdded.push(artistListToShow[i].id);
-
-      console.log(artistListToShow[i].id);
 
       artistImg.src = artistListToShow[i].urlImg;
       artistName.textContent = artistListToShow[i].name;

@@ -1076,6 +1076,7 @@ artistName.classList.add("nameOption"); */
 
 .genreOption {
   color: #ffffff;
+  margin-top: .5rem;
 }
 
 @media screen and (max-width: 700px) {

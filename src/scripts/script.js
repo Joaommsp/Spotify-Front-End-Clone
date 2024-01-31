@@ -1,3 +1,21 @@
+window.alert(`
+  Artistas disponíveis para pesquisa:
+
+
+-Real Music NF
+-Michael Jackson
+-Nick Jonas
+-Taylor Swift
+-Justin Bieber
+-Adele
+-Dua Lipa
+-Eminem
+-Iguinho
+-Zyyz
+-Karen Harding
+
+  `)
+
 const searchInput = document.getElementById("search-input");
 
 const playListControls = document.querySelector(".playlists-controls");
@@ -22,10 +40,13 @@ card.forEach((e, i) => {
   e
 })
 
+const backbtn = document.getElementById('back-btn')
+backbtn.addEventListener('click', () => location.reload())
+
+
 const player = document.querySelector("#player");
 
 function musicPlayer(songs) {
-  console.log(songs);
 
   const musicName = document.querySelector("#musicName");
   const playPauseBtn = document.querySelector("#playBtn");
@@ -47,17 +68,16 @@ function musicPlayer(songs) {
 
   playPauseBtn.addEventListener("click", () => playPause());
 
+
   function playPause() {
     if (player.paused) {
       player.play();
       playPauseImg.src = pauseBtnSrc;
       playPauseBtn.style.backgroundColor = "#ffffff";
-      console.log("play");
     } else {
       player.pause();
       playPauseImg.src = playBtnSrc;
       playPauseBtn.style.backgroundColor = "#4C4C4C";
-      console.log("pause");
     }
   }
 
@@ -93,7 +113,6 @@ function musicPlayer(songs) {
   });
 
   function prevNextMusic(type = "next") {
-    console.log(type);
     if ((type == "next" && index + 1 === songs.length) || type === "init") {
       index = 0;
     } else if (type == "prev" && index === 0) {
@@ -102,7 +121,6 @@ function musicPlayer(songs) {
       index = type === "prev" && index ? index - 1 : index + 1;
     }
 
-    console.log(index);
 
     player.src = songs[index].src;
     musicName.textContent = songs[index].name;
@@ -117,6 +135,7 @@ function musicPlayer(songs) {
 
 function searchInputControl() {
   document.addEventListener("input", () => {
+
     fetch(
       "https://raw.githubusercontent.com/Joaommsp/Spotify-Front-End-Clone/main/artistsapi.json"
     )
@@ -124,7 +143,6 @@ function searchInputControl() {
       .then((data) => {
         let inputTerm = searchInput.value;
         let inputFormater = inputTerm.toLowerCase();
-        console.log(inputFormater);
 
         let list = data.artists;
         let artistsToShow = [];
@@ -143,7 +161,6 @@ function searchInputControl() {
         if (inputTerm === "") {
           location.reload();
           itemsAdded = [];
-          console.log("vazio");
 
           searchOptions.innerHTML = "";
           searchOptions.classList.add("displayOff");
@@ -182,6 +199,8 @@ function displayOptions(artistListToShow) {
 
   let artistGenre = document.createElement('span') 
   artistGenre.classList.add("genreOption");
+
+  console.log(artistListToShow)
 
   for (let i = 0; i < artistListToShow.length; i++) {
     if (!itemsAdded.includes(artistListToShow[i].id)) {

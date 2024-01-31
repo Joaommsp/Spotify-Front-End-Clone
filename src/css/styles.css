@@ -1079,6 +1079,27 @@ artistName.classList.add("nameOption"); */
 }
 
 @media screen and (max-width: 700px) {
+
+  .searchOptions {
+    display: grid;
+    flex-wrap: wrap;
+    padding: .5rem;
+    justify-content: flex-start;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .cardOption {
+    width: 150px;
+    height: 220px;
+  }
+
+  .imgOption {
+    width: 100px; /* largura do contêiner */
+    height: 100px; /* altura do contêiner */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
   .search-title {
     display: flex;
     flex-direction: column;

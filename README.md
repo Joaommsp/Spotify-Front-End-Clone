@@ -13,7 +13,7 @@ Este é um projeto incrível que foi desenvolvido com as tecnologias HTML5, CSS3
    <img src="./assets/img/readme/iPhone 12 Pro-1706725954511.jpeg" width="400" alt="Imagem 2">
 
 ## Como funciona
-O projeto foi uma proprosta da Imersão Frontend da ALURA , porém decidi ir além , fiz meu próprio código e css usando apenas a ideia que foi passada nas aulas da imersão , decidi também criar um player de Música com JavaScript , com uma "api" que criei com artistas e uma música do mesmo.
+O projeto foi uma proprosta da Imersão Frontend da ALURA , porém decidi ir além , fiz meu próprio código e css usando apenas a ideia que foi passada nas aulas da imersão , decidi também criar um player de Música com JavaScript , com uma "api" que criei com artistas e uma música do mesmo. Também editei as imagens dos cards
 
 ## Pesquisar por artistas 
 ![](./assets/img/readme/MacBook%20Pro-1706726296883.jpeg)

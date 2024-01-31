@@ -2,13 +2,13 @@
   "artists": [
     {
       "id": 1,
-      "name": "AceHood",
+      "name": "Real Music NF",
       "genre": "Rap",
-      "urlImg": "https://i.ytimg.com/vi/djE-BLrdDDc/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDlrVJ29O8DLzToG5oR6bsMCq1kdA",
+      "urlImg": "https://www.vagalume.com.br/dynimage/news39378-big.jpg",
       "songs": [
         {
-          "src": "./assets/music/bugatti.mp3",
-          "name": "Bugatti"
+          "src": "./assets/music/letempray.mp3",
+          "name": "LET EM PRAY - NF"
         }
       ]
     },
@@ -92,7 +92,13 @@
       "id": 8,
       "name": "Eminem",
       "genre": "Rap",
-      "urlImg": "https://images6.alphacoders.com/981/981194.jpg"
+      "urlImg": "https://images6.alphacoders.com/981/981194.jpg",
+      "songs": [
+        {
+          "src": "./assets/music/tilicolapse.mp3",
+          "name": "Till i Colapse - Eminem"
+        }
+      ]
     },
     {
       "id": 9,
@@ -119,7 +125,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Karen Harding",
       "genre": "Pop",
       "urlImg": "https://www.recordoftheday.com/mediaLibrary/records/2018-08-01.jpg",

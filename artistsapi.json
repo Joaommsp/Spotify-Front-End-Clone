@@ -2,39 +2,75 @@
   "artists": [
     {
       "id": 1,
-      "name": "Foo Fighters",
-      "genre": "Rock",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15"
+      "name": "AceHood",
+      "genre": "Rap",
+      "urlImg": "https://i.ytimg.com/vi/djE-BLrdDDc/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDlrVJ29O8DLzToG5oR6bsMCq1kdA",
+      "songs": [
+        {
+          "src": "./assets/music/bugatti.mp3",
+          "name": "Bugatti"
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Michael Jackson",
       "genre": "Pop",
-      "urlImg": "https://cdn.wallpapersafari.com/49/76/H2ro49.jpg"
+      "urlImg": "https://cdn.wallpapersafari.com/49/76/H2ro49.jpg",
+      "songs": [
+        {
+          "src": "./assets/music/bew.mp3",
+          "name": "Black or White - Michael Jackson"
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Nick Jonas",
       "genre": "Pop",
-      "urlImg": "https://images.alphacoders.com/860/860581.jpg"
+      "urlImg": "https://images.alphacoders.com/860/860581.jpg",
+      "songs": [
+        {
+          "src": "./assets/music/heaven.mp3",
+          "name": "This is Heaven - Nick Jonas"
+        }
+      ]
     },
     {
       "id": 4,
       "name": "Taylor Swift",
       "genre": "Pop",
-      "urlImg": "https://wallpapers-hub.art/wallpaper-images/356283.jpg"
+      "urlImg": "https://wallpapers-hub.art/wallpaper-images/356283.jpg",
+      "songs": [
+        {
+          "src": "./assets/music/blankSpace.mp3",
+          "name": "Blank Space - Taylor Swift"
+        }
+      ]
     },
     {
       "id": 5,
       "name": "Justin Bieber",
       "genre": "Pop",
-      "urlImg": "https://istoe.com.br/wp-content/uploads/2022/06/justin-bieber-1.jpg"
+      "urlImg": "https://istoe.com.br/wp-content/uploads/2022/06/justin-bieber-1.jpg",
+      "songs": [
+        {
+          "src": "./assets/music/whtdymean.mp3",
+          "name": "What do You Mean - Justin Bieber"
+        }
+      ]
     },
     {
       "id": 6,
       "name": "Adele",
       "genre": "Pop",
-      "urlImg": "https://www.billboard.com/wp-content/uploads/2021/10/British_Vogue_adele-2021-billboard-1548-1633626682.jpg?w=942&h=623&crop=1"
+      "urlImg": "https://www.billboard.com/wp-content/uploads/2021/10/British_Vogue_adele-2021-billboard-1548-1633626682.jpg?w=942&h=623&crop=1",
+      "songs": [
+        {
+          "src": "./assets/music/hello.mp3",
+          "name": "Hello - Adele"
+        }
+      ]
     },
     {
       "id": 7,
@@ -52,7 +88,7 @@
         }
       ]
     },
-     {
+    {
       "id": 8,
       "name": "Eminem",
       "genre": "Rap",
@@ -62,11 +98,35 @@
       "id": 9,
       "name": "Iguinho",
       "genre": "Forró",
-      "urlImg" : "https://planetaforro.com.br/wp-content/uploads/2023/04/IguinhoeLulinha-28abr_PlanetaForro.jpg",
-      "songs" : [
+      "urlImg": "https://planetaforro.com.br/wp-content/uploads/2023/04/IguinhoeLulinha-28abr_PlanetaForro.jpg",
+      "songs": [
         {
           "src": "./assets/music/vaqueira-iguinho.mp3",
           "name": "Vaqueira - Iguinho e Lulinha"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Zyyz",
+      "genre": "HardStyle",
+      "urlImg": "https://ocorreio.com.br/wp-content/uploads/2023/10/Conheca_Zyzz_o_influencer_fitness_que_marcou_epoca._4.jpg",
+      "songs": [
+        {
+          "src": "./assets/music/zyyz.mp3",
+          "name": "Zyyz - Afraid HardStyle"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Karen Harding",
+      "genre": "Pop",
+      "urlImg": "https://www.recordoftheday.com/mediaLibrary/records/2018-08-01.jpg",
+      "songs": [
+        {
+          "src": "./assets/music/wings.mp3",
+          "name": "Wings (I Won’t Let You Down)"
         }
       ]
     }
